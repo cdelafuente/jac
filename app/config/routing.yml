@@ -1,0 +1,4 @@
+jac_home:
+    resource: "@JacHomeBundle/Resources/config/routing.yml"
+    prefix:   /
+

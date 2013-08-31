@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'swiss721btthin';
+    src: url('../fonts/swiss_721_thin-webfont.eot');
+    src: url('../fonts/swiss_721_thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/swiss_721_thin-webfont.woff') format('woff'),
+         url('../fonts/swiss_721_thin-webfont.ttf') format('truetype'),
+         url('../fonts/swiss_721_thin-webfont.svg#swiss_721_bt_thinthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'swis721btroman';
+    src: url('../fonts/swiss_721-webfont.eot');
+    src: url('../fonts/swiss_721-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/swiss_721-webfont.woff') format('woff'),
+         url('../fonts/swiss_721-webfont.ttf') format('truetype'),
+         url('../fonts/swiss_721-webfont.svg#swis721btroman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'swiss721lightbtregular';
+    src: url('../fonts/swiss_721_light-webfont.eot');
+    src: url('../fonts/swiss_721_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/swiss_721_light-webfont.woff') format('woff'),
+         url('../fonts/swiss_721_light-webfont.ttf') format('truetype'),
+         url('../fonts/swiss_721_light-webfont.svg#swiss721lightbtregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tamil_mnbold';
+    src: url('../fonts/tamilmn-bold-webfont.eot');
+    src: url('../fonts/tamilmn-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/tamilmn-bold-webfont.woff') format('woff'),
+         url('../fonts/tamilmn-bold-webfont.ttf') format('truetype'),
+         url('../fonts/tamilmn-bold-webfont.svg#tamil_mnbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

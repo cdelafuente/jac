@@ -1,0 +1,272 @@
+html {
+    background: url(../images/background.png);
+}
+
+body {
+    margin: 0;
+}
+
+
+/*
+ * Header
+ */
+header {
+    background: url(../images/header_bg.png) repeat-x;
+    width: 100%;
+    height: 221px;
+}
+
+header section {
+    width: 950px;
+    margin: 0 auto;
+}
+
+
+/*
+ * Language bar section.
+ */
+#top-navigation {
+    width: 950px;
+    height: 40px;
+}
+
+#top-navigation ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+#languages,
+#top-navigation-twitter {
+    float: right;
+    margin: 5px 0;
+}
+
+#top-navigation-twitter {
+    margin-right: 10px;
+}
+
+#top-navigation-twitter a {
+    background: url(../images/language_bar_twitter_button.png) no-repeat;
+    width: 30px;
+    height: 30px;
+    float: right;
+    overflow: hidden;
+    text-indent: 39px;
+}
+
+#languages > a {
+    background: url(../images/language_bar_languages_button.png) no-repeat;
+    width: 86px;
+    height: 30px;
+    float: right;
+    position: relative;
+}
+
+#languages > a:link,
+#languages > a:visited,
+#languages > a:hover,
+#languages > a:active {
+    text-decoration: none;
+}
+
+#languages > a span {
+    color: #808080;
+    font-family: swiss721lightbtregular;
+    font-size: 13px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    padding: 0;
+}
+
+#language-items {
+    display: none;
+}
+
+
+/*
+ * Main Logo
+ */
+header h1 {
+    width: 161px;
+    height: 120px;
+    margin: 0;
+    padding: 10px 0;
+}
+
+header h1 a {
+    background: url(../images/logo.png) no-repeat;
+    display: block;
+    width: 161px;
+    height: 120px;
+    overflow: hidden;
+    text-indent: -240px;
+}
+
+
+/*
+ * Main Navigation
+ */
+#main-navigation {
+    width: 950px;
+    height: 30px;
+    color: #fff;
+}
+
+#main-navigation h2 {
+    display: inline-block;
+    font-family: "swiss721lightbtregular";
+    font-size: 15px;
+    margin: 0 20px 0 0;
+    font-weight: 100;
+    position: relative;
+}
+
+#main-navigation h2:after {
+    content: '';
+    display: block;
+    background: url(../images/nav_separator.png);
+    width: 34px;
+    height: 30px;
+    position: absolute;
+    top: 0px;
+    left: 202px;
+}
+
+#main-navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+#main-navigation ul li {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+}
+
+#main-navigation a {
+    color: #fff;
+    font-family: 'tamil_mnbold';
+    position: relative;
+}
+
+#main-navigation a:link,
+#main-navigation a:hover,
+#main-navigation a:visited,
+#main-navigation a:active {
+    text-decoration: none;
+}
+
+#main-navigation a:link,
+#main-navigation a:visited,
+#main-navigation a:active {
+    color: #fff;
+}
+
+#main-navigation a:hover {
+    color: #fde100;
+}
+
+#main-navigation-home a:before,
+#main-navigation-about-us a:before,
+#main-navigation-products a:before,
+#main-navigation-contact a:before {
+    content: '';
+    display: block;
+    position: absolute;
+}
+
+
+#main-navigation-home a:before {
+    background: url('../images/home_icon.png') no-repeat;
+    width: 91px;
+    height: 99px;
+    top: -94px;
+    left: -24px;
+}
+
+#main-navigation-about-us a:before {
+    background: url('../images/about_us_icon.png') no-repeat;
+    width: 99px;
+    height: 99px;
+    top: -94px;
+    left: -14px;
+}
+
+#main-navigation-products a:before {
+    background: url('../images/products_icon.png') no-repeat;
+    width: 100px;
+    height: 98px;
+    top: -94px;
+    left: -16px;
+}
+
+#main-navigation-contact a:before {
+    background: url('../images/contact_icon.png') no-repeat;
+    width: 97px;
+    height: 98px;
+    top: -94px;
+    left: -10px;
+}
+
+
+/*
+ * Footer
+ */
+footer {
+    background: url(../images/footer_background.png) repeat-x;
+    width: 100%;
+    height: 88px;
+    float: left;
+    padding-top: 12px;
+    position: fixed;
+    bottom: 0;
+}
+
+footer .content {
+    width: 950px;
+    margin: 0 auto;
+    font-family: "swiss721lightbtregular";
+    font-size: 13px;
+    color: #808080;
+}
+
+#copyright {
+    float: left;
+    margin: 15px 0 0 0;
+}
+
+#footer-contact-info {
+    margin: 15px 0 0 0;
+    padding: 0;
+    list-style-type: none;
+    width: 305px;
+    float: right;
+    position: relative;
+}
+
+#footer-contact-info:after {
+    content: '';
+    display: block;
+    width: 36px;
+    height: 36px;
+    background: url('../images/footer_tweeter_logo.png') no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 269px;
+}
+
+footer a:link,
+footer a:visited,
+footer a:hover,
+footer a:active {
+    color: #808080;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
