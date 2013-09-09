@@ -1,0 +1,3 @@
+jac_products_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: JacProductsBundle:Default:index }

@@ -1,0 +1,7 @@
+parameters:
+#    jac_products.example.class: Jac\ProductsBundle\Example
+
+services:
+#    jac_products.example:
+#        class: %jac_products.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
