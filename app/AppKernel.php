@@ -18,6 +18,7 @@ class AppKernel extends Kernel
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new Jac\HomeBundle\JacHomeBundle(),
             new Jac\ProductsBundle\JacProductsBundle(),
+            new Jac\AboutUsBundle\JacAboutUsBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

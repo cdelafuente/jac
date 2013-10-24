@@ -1,8 +1,12 @@
-jac_products:
-    resource: "@JacProductsBundle/Resources/config/routing.yml"
-    prefix:   /
-
 jac_home:
     resource: "@JacHomeBundle/Resources/config/routing.yml"
+    prefix:   /
+
+jac_about_us:
+    resource: "@JacAboutUsBundle/Resources/config/routing.yml"
+    prefix:   /
+
+jac_products:
+    resource: "@JacProductsBundle/Resources/config/routing.yml"
     prefix:   /
 

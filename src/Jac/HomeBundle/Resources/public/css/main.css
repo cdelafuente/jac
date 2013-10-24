@@ -7,9 +7,9 @@ body {
 }
 
 
-/*
- * Header
- */
+/* ************************** */
+/*           Header           */
+/* ************************** */
 header {
     background: url(../images/header_bg.png) repeat-x;
     width: 100%;
@@ -22,9 +22,9 @@ header section {
 }
 
 
-/*
- * Language bar section.
- */
+/* **************************************** */
+/*           Language Bar Section           */
+/* **************************************** */
 #top-navigation {
     width: 950px;
     height: 40px;
@@ -85,9 +85,9 @@ header section {
 }
 
 
-/*
- * Main Logo
- */
+/* ***************************** */
+/*           Main Logo           */
+/* ***************************** */
 header h1 {
     width: 161px;
     height: 120px;
@@ -105,9 +105,9 @@ header h1 a {
 }
 
 
-/*
- * Main Navigation
- */
+/* *********************************** */
+/*           Main Navigation           */
+/* *********************************** */
 #main-navigation {
     width: 950px;
     height: 30px;
@@ -213,9 +213,9 @@ header h1 a {
 }
 
 
-/*
- * Footer
- */
+/* ************************** */
+/*           Footer           */
+/* ************************** */
 footer {
     background: url(../images/footer_background.png) repeat-x;
     width: 100%;

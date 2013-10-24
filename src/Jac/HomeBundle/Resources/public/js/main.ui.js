@@ -12,7 +12,8 @@ $(function() {
         'margin-left': margin + 'px',
         'margin-right': margin + 'px'
     });
-    
+
+    // Center button text to the center of the button.
     $('#languages > a span').css({
         'left': ($('#languages > a').width() - $('#languages a span').width()) / 2 + 'px',
         'top': ($('#languages > a').height() - $('#languages a span').height()) / 2 + 'px'
