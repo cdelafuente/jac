@@ -1,0 +1,3 @@
+jac_about_us_homepage:
+    pattern:  /about_us/
+    defaults: { _controller: JacAboutUsBundle:Default:index }

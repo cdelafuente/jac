@@ -213,6 +213,24 @@ header h1 a {
 }
 
 
+/* ******************************** */
+/*           Main content           */
+/* ******************************** */
+.main-content {
+    width: 930px;
+    margin: 15px auto 0 auto;
+    background: rgba(255, 255, 255, 0.5);
+    margin-bottom: 100px;
+    padding: 10px;
+    font-family: "swiss721lightbtregular";
+    box-shadow: 0px 0px 10px #bbb;
+}
+
+.main-content p {
+    font-size: 15px;
+}
+
+
 /* ************************** */
 /*           Footer           */
 /* ************************** */

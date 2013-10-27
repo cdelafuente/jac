@@ -1,4 +1,343 @@
 {% extends 'JacHomeBundle:Default:main.html.twig' %}
 
-{% block title %}Juntas de Alta Calidad | Catálogo{% endblock %}
+{% block title %}Juntas de Alta Calidad | Cat&#xe1;logo{% endblock %}
 
+{% block stylesheets %}
+    {{ parent() }}
+{% endblock %}
+
+{% block content %}
+    <style>
+        #catalog-content {
+            width: 950px;
+            margin: 15px auto 0 auto;
+            background: rgba(255, 255, 255, 0.5);
+            margin-bottom: 100px;
+            padding-bottom: 20px;
+        }
+
+        #catalog-content h2 {
+            background-color: #fde049;
+            margin: 0;
+            padding: 5px 0 5px 40px;
+            color: #00996b;
+            font-family: "swiss721btthin";
+        }
+
+            /* Catalog images */
+        #catalog-images {
+            list-style-type: none;
+            margin: 0;
+            padding: 20px;
+            float: left;
+        }
+
+        #catalog-images li,
+        #catalog-images img {
+            float: left;
+        }
+
+            /* Item description table */
+        #catalog-description {
+            font-family: 'swiss721lightbtregular';
+            border-collapse: collapse;
+            border: 1px solid #676767;
+            width: 910px;
+            margin: 0 20px;
+        }
+
+        #catalog-description thead th {
+            background-color: #fde049;
+            color: #4d4d4d;
+            text-align: center;
+            font-size: 16px;
+            padding: 5px 0;
+        }
+
+        #catalog-description tbody {
+            color: #676767;
+            font-size: 13px;
+        }
+
+        #catalog-description tbody td {
+            padding: 5px 0;
+        }
+
+        #jac-number {
+            width: 15%;
+            border-right: 2px solid #676767;
+            border-bottom: 2px solid #676767;
+        }
+
+        #reference {
+            width: 10%;
+            border-right: 2px solid #676767;
+            border-bottom: 2px solid #676767;
+        }
+
+        #brand-reference {
+            width: 25%;
+            border-right: 2px solid #676767;
+            border-bottom: 2px solid #676767;
+        }
+
+        #description {
+            width: 45%;
+            border-bottom: 2px solid #676767;
+        }
+
+        .jac-number-column,
+        .reference-column,
+        .brand-reference-column {
+            text-align: center;
+            border-right: 2px solid #676767;
+        }
+
+        #catalog-description .description-column {
+            padding-left: 10px;
+        }
+    </style>
+    <section id="catalog-content">
+        <h2>
+            <span class="category-name">CUMMINS</span> / <span class="subcategory-name">MOTORES: NH-220, NH-250 NTC 335, 400, N-14</span>
+        </h2>
+        <ul id="catalog-images">
+            <li><img alt="" width="200" height="117" src="{{ asset('bundles/jacproducts/images/catalog/JAC_001.png') }}" /></li>
+            <li><img alt="" width="250" height="84" src="{{ asset('bundles/jacproducts/images/catalog/JAC_002.png') }}" /></li>
+            <li><img alt="" width="149" height="132" src="{{ asset('bundles/jacproducts/images/catalog/JAC_003.png') }}" /></li>
+            <li><img alt="" width="250" height="102" src="{{ asset('bundles/jacproducts/images/catalog/JAC_004_005.png') }}" /></li>
+            <li><img alt="" width="99" height="122" src="{{ asset('bundles/jacproducts/images/catalog/JAC_006.png') }}" /></li>
+            <li><img alt="" width="201" height="121" src="{{ asset('bundles/jacproducts/images/catalog/JAC_007.png') }}" /></li>
+            <li><img alt="" width="200" height="128" src="{{ asset('bundles/jacproducts/images/catalog/JAC_008.png') }}" /></li>
+            <li><img alt="" width="200" height="172" src="{{ asset('bundles/jacproducts/images/catalog/JAC_009.png') }}" /></li>
+            <li><img alt="" width="150" height="155" src="{{ asset('bundles/jacproducts/images/catalog/JAC_010.png') }}" /></li>
+            <li><img alt="" width="200" height="165" src="{{ asset('bundles/jacproducts/images/catalog/JAC_011.png') }}" /></li>
+            <li><img alt="" width="200" height="138" src="{{ asset('bundles/jacproducts/images/catalog/JAC_012.png') }}" /></li>
+            <li><img alt="" width="99" height="127" src="{{ asset('bundles/jacproducts/images/catalog/JAC_013.png') }}" /></li>
+            <li><img alt="" width="149" height="160" src="{{ asset('bundles/jacproducts/images/catalog/JAC_014.png') }}" /></li>
+            <li><img alt="" width="193" height="145" src="{{ asset('bundles/jacproducts/images/catalog/JAC_015.png') }}" /></li>
+            <li><img alt="" width="250" height="103" src="{{ asset('bundles/jacproducts/images/catalog/JAC_016.png') }}" /></li>
+            <li><img alt="" width="195" height="178" src="{{ asset('bundles/jacproducts/images/catalog/JAC_017.png') }}" /></li>
+        </ul>
+        <table id="catalog-description">
+            <thead>
+            <tr>
+                <th id="jac-number">NO. JAC</th>
+                <th id="reference">REF.</th>
+                <th id="brand-reference">REF. <span class="category-name">CUMMINS</span></th>
+                <th id="description">APLICACIÓN</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td class="jac-number-column">JAC-001</td>
+                <td class="reference-column"></td>
+                <td class="brand-reference-column">2164</td>
+                <td class="description-column">JUNTA FRENO DE MOTOR 335 - 350</td>
+            </tr>
+            <tr>
+                <td class="jac-number-column">JAC-002</td>
+                <td class="reference-column"></td>
+                <td class="brand-reference-column">5083</td>
+                <td class="description-column">JUNTA CARTER UNITARIA MOTOR 335 - 350</td>
+            </tr>
+            <tr>
+                <td class="jac-number-column">JAC-003</td>
+                <td class="reference-column"></td>
+                <td class="brand-reference-column">9221</td>
+                <td class="description-column">JUNTA TOMA DE AGUA DEL ENFRIADOR</td>
+            </tr>
+            <tr>
+                <td class="jac-number-column">JAC-004</td>
+                <td class="reference-column"></td>
+                <td class="brand-reference-column">9266</td>
+                <td class="description-column">JUNTA AJUSTE SMALL CAM 0.016</td>
+            </tr>
+            <tr>
+                <td class="jac-number-column">JAC-005</td>
+                <td class="reference-column"></td>
+                <td class="brand-reference-column">9266-A</td>
+                <td class="description-column">JUNTA AJUSTE SMALL CAM 0.007</td>
+            </tr>
+            <tr>
+                <td class="jac-number-column">JAC-006</td>
+                <td class="reference-column"></td>
+                <td class="brand-reference-column">9333</td>
+                <td class="description-column">JUNTA PARA CAMPANA DEL MOTOR - 350</td>
+            </tr>
+            <tr>
+                <td class="jac-number-column">JAC-007</td>
+                <td class="reference-column"></td>
+                <td class="brand-reference-column">10279</td>
+                <td class="description-column">JUNTA FRENO DE MOTOR LAM. 350</td>
+            </tr>
+            <tr>
+                <td class="jac-number-column">JAC-008</td>
+                <td class="reference-column"></td>
+                <td class="brand-reference-column">13294</td>
+                <td class="description-column">JUNTA FRENO DE MOTOR LAM. 350</td>
+            </tr>
+            <tr>
+                <td class="jac-number-column">JAC-009</td>
+                <td class="reference-column"></td>
+                <td class="brand-reference-column">14848</td>
+                <td class="description-column">JUNTA FRENO DE MOTOR LAM. 400</td>
+            </tr>
+            <tr>
+                <td class="jac-number-column">JAC-010</td>
+                <td class="reference-column"></td>
+                <td class="brand-reference-column">40662-A</td>
+                <td class="description-column">JUNTA BRIDA CIGÜEÑAL</td>
+            </tr>
+            <tr>
+                <td class="jac-number-column">JAC-011</td>
+                <td class="reference-column"></td>
+                <td class="brand-reference-column">65274</td>
+                <td class="description-column">JUNTA TAPA BAYONETA</td>
+            </tr>
+            <tr>
+                <td class="jac-number-column">JAC-012</td>
+                <td class="reference-column"></td>
+                <td class="brand-reference-column">70089</td>
+                <td class="description-column">JUNTA REGISTRO DE AGUA</td>
+            </tr>
+            <tr>
+                <td class="jac-number-column">JAC-013</td>
+                <td class="reference-column"></td>
+                <td class="brand-reference-column">70441</td>
+                <td class="description-column">JUNTA CAJA DE TERMOSTATO MOTOR 350</td>
+            </tr>
+            <tr>
+                <td class="jac-number-column">JAC-014</td>
+                <td class="reference-column"></td>
+                <td class="brand-reference-column">102996</td>
+                <td class="description-column">JUNTA BOMBA DE COMBUSTIBLE</td>
+            </tr>
+            <tr>
+                <td class="jac-number-column">JAC-015</td>
+                <td class="reference-column"></td>
+                <td class="brand-reference-column">116982</td>
+                <td class="description-column">JUNTA SEGURO MEDIA LUNA ESCAPE M-335-350</td>
+            </tr>
+            <tr>
+                <td class="jac-number-column">JAC-016</td>
+                <td class="reference-column"></td>
+                <td class="brand-reference-column">120819</td>
+                <td class="description-column">JUNTA AJUSTE SMALL CAM 0.031</td>
+            </tr>
+            <tr>
+                <td class="jac-number-column">JAC-017</td>
+                <td class="reference-column"></td>
+                <td class="brand-reference-column">121779</td>
+                <td class="description-column">JUNTA ENFRIADOR AL MONOBLOCK</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+{% endblock %}
+{% block javascripts %}
+    {{ parent() }}
+    <script>
+        function addVerticalGap(items, offset) {
+            for (var i = 0; i < items.length; i++) {
+                var item = items[i];
+
+                var marginBottom = item.css('margin-bottom');
+                marginBottom = parseFloat(marginBottom, 10);
+
+                item.css('margin-bottom', (marginBottom + offset) + 'px');
+            }
+        }
+
+
+        function centerItemsVertically(items) {
+            var maxHeight = getMaxHeight(items);
+            for (var i = 0; i < items.length; i++) {
+                var item = items[i];
+                var height = item.outerHeight();
+                if (height < maxHeight) {
+                    var margin = (maxHeight - height) / 2;
+                    item.css({
+                        'margin-top': margin + 'px',
+                        'margin-bottom': margin + 'px'
+                    });
+                }
+            }
+        }
+
+
+        // Distribute items horizontally.
+        function distributeItemsHorizontally(items, sectionWidth, contentWidth) {
+            var rightMargin = (sectionWidth - contentWidth) / (items.length - 1);
+            for (var i = 0; i < items.length; i++) {
+                var item = items[i];
+                if (i < (items.length - 1)) {
+                    item.css('margin-right', rightMargin + 'px');
+                }
+            }
+        }
+
+
+        function getMaxHeight(items) {
+            var maxHeight = items[0].outerHeight();
+            for (var i = 1; i < items.length; i++) {
+                var height = items[i].outerHeight();
+                if (height > maxHeight) {
+                    maxHeight = height;
+                }
+            }
+            return maxHeight;
+        }
+
+        var items = $('#catalog-content li');
+        var sectionWidth = 910;
+        var grid = [];
+
+        // Create grid
+        var itemsWidth = 0;
+
+        var row = {
+            items: [],
+            width: 0
+        };
+
+        for (var i = 0; i < items.length; i++) {
+            var item = $(items[i]);
+            var width = item.outerWidth();
+            if ((itemsWidth + width) < sectionWidth) {
+                row.items.push(item);
+                itemsWidth += width;
+            }
+            else {
+                row.width = itemsWidth;
+                grid.push(row);
+
+                // Reset row.
+                itemsWidth = item.outerWidth();
+                row = {
+                    items: [item],
+                    width: 0
+                }
+            }
+        }
+
+        if (row.items.length > 1) {
+            row.width = itemsWidth;
+            grid.push(row);
+        }
+
+        for (var i = 0; i < grid.length; i++) {
+            var row = grid[i];
+
+            centerItemsVertically(row.items);
+            distributeItemsHorizontally(row.items, sectionWidth, row.width);
+
+            if (i < grid.length - 1) {
+                addVerticalGap(row.items, 20);
+            }
+        }
+
+        $('#catalog-description tr:even').css('background-color', '#fff');
+        $('#catalog-description tr:odd').css('background-color', '#e1e1e1');
+    </script>
+{% endblock %}
