@@ -1,73 +1,184 @@
 {% extends 'JacHomeBundle:Default:main.html.twig' %}
 
 {% block content %}
+    <style>
+        .main-content h2 {
+            font-size: 2em;
+        }
+
+        .main-content h2:before,
+        .main-content h2:after,
+        .main-content #history:before
+        {
+            content: '';
+            display: block;
+            width: 49px;
+            height: 49px;
+            position: absolute;
+            background: url('/jac/web/bundles/jachome/images/rivet.png');
+        }
+
+        .main-content h2:before {
+            top: 0;
+            right: 0;
+        }
+
+        .main-content h2:after {
+            bottom: 0;
+            right: 0;
+        }
+
+        .main-content h3 {
+            font-size: 1.5em;
+            border-bottom: 1px solid #299344;
+            padding-bottom: 5px;
+        }
+
+        .main-content h3:before {
+            left: 0;
+            bottom: 0;
+        }
+
+        .main-content {
+            position: relative;
+            margin-top: 50px;
+            margin-bottom: 120px;
+            padding-bottom: 40px;
+            width: 930px;
+        }
+
+        .main-content:before {
+            content: '';
+            display: block;
+            width: 300px;
+            height: 377px;
+            background: url('/jac/web/bundles/jachome/images/about_us_history.png');
+            position: absolute;
+            top: -30px;
+            left: -70px;
+        }
+
+        .main-content section {
+            margin-bottom: 30px;
+        }
+
+        .main-content .content {
+            margin-left: 250px;
+            width: 430px;
+        }
+
+        .contents-nav {
+            position: absolute;
+            top: 97px;
+            right: 50px;
+        }
+
+        .contents-nav h3 {
+            color: #000;
+            font-size: 1em;
+        }
+
+        .contents-nav a:link,
+        .contents-nav a:visited,
+        .contents-nav a:active {
+            color: #299344;
+            text-decoration: none;
+        }
+
+        .contents-nav a:hover {
+            color: #299344;
+            text-decoration: underline;
+        }
+
+        .contents-nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
     <section class="main-content">
-        <h2>Qu&#xed;enes somos</h2>
-        <section>
-            <h3>Historia</h3>
-            <p>
-                Juntas de Alta Calidad fue fundada en 1990, est&#xe1; dedicada a la producci&#xf3;n y comercializaci&#xf3;n
-                de juntas para servicio pesado, orientadas a los motores Diesel: Cummins, Perkins, Mercedes-Benz y Navistar,
-                as&#xed; como para transmisiones. Nuestra organizaci&#xf3;n se configur&#xf3; debido a la necesidad
-                planteada por el mercado del autotransporte de pasaje y carga en el pa&#xed;s, de disponer de juntas
-                que garantizan la adecuada operaci&#xf3;n de los componentes.
-            </p>
-            <p>
-                Actualmente la demanda est&#xe1; insatisfecha por la producci&#xf3;n nacional llevada a cabo por los
-                actuales fabricantes, de all&#xed; el potencial para el crecimiento de nuestra empresa.
-            </p>
-            <p>
-                Juntas de Alta Calidad es una empresa 100% mexicana, con amplia experiencia en el mercado nacional, lo
-                cual nos ha permitido detectar las necesidades del mismo, adapt&#xe1;ndolas r&#xe1;pidamente a nuestras
-                operaciones. Nuestras oficinas generales se encuentran ubicadas en el Distrito Federal, en donde se
-                cuenta con una planta de producci&#xf3;n.
-            </p>
+        <section class="content">
+            <h2>Acerca de Nostros</h2>
+            <section>
+                <h3 id="history">Historia</h3>
+                <p>
+                    Juntas de Alta Calidad fue fundada en 1990, est&#xe1; dedicada a la producci&#xf3;n y
+                    comercializaci&#xf3;n de juntas para servicio pesado, orientadas a los motores Diesel:
+                    Cummins, Perkins, Mercedes-Benz y Navistar, as&#xed; como para transmisiones,
+                    flechas y juntas para compresores. Nuestra organizaci&#xf3;n se configur&#xf3; debido
+                    a la necesidad planteada por el mercado del autotransporte de pasaje y carga
+                    en el pa&#xed;s, de disponer de juntas que garantizan la adecuada operaci&#xf3;n de los
+                    componentes.
+                </p>
+                <p>
+                    Actualmente la demanda est&#xe1; insatisfecha por la producci&#xf3;n nacional llevada
+                    a cabo por los actuales fabricantes, de all&#xed; el potencial para el crecimiento de
+                    nuestra empresa.
+                <p>
+                    Juntas de Alta Calidad es una empresa 100% mexicana, con amplia experiencia
+                    en el mercado nacional, lo cual nos ha permitido detectar las necesidades del
+                    mismo, adapt&#xe1;ndolas r&#xe1;pidamente a nuestras operaciones.<br />
+                    Nuestras oficinas generales se encuentran ubicadas en el Distrito Federal, en
+                    donde se cuenta con una planta de producci&#xf3;n.
+                </p>
+            </section>
+            <section>
+                <h3 id="mission">Misi&#xf3;n</h3>
+                <p>
+                    Participar activamente en el desarrollo de la industria para proveer los mejores
+                    empaques brindando la satisfacci&#xf3;n a nuestros clientes nacionales e internacionales,
+                    por medio del compromiso de cada uno de nosotros en dar valor a nuestros productos y
+                    clientes.
+                </p>
+            </section>
+            <section>
+                <h3 id="vision">Visi&#xf3;n</h3>
+                <p>
+                    Ser reconocidos por la calidad de nuestros productos, experiencia, seriedad y crecimiento
+                    en la industria nacional e internacional
+                </p>
+            </section>
+            <section>
+                <h3 id="profile">Perfil</h3>
+                <p>
+                    Nuestro perfil es de una empresa en desarrollo con experiencia en el mercado y flexibilidad
+                    de operaciones que nos permite estar en constante contacto con nuestros clientes y proveedores.
+                    Buscando siempre la calidad en nuestros productos y un servicio satisfactorio.
+                </p>
+            </section>
+            <section>
+                <h3 id="focus">Enfoque</h3>
+                <p>
+                    Nuestro enfoque se encuentra en la calidad de productos y en la diversidad de nuestras l&#xed;neas
+                    proveyendo de soluciones para nuestros clientes.
+                </p>
+            </section>
+            <section>
+                <h3 id="competitive-advantage">Ventaja Competitiva</h3>
+                <p>
+                    Nuestra ventaja competitiva radica en la flexibilidad en el servicio, la calidad de los insumos,
+                    la gama de productos que manejamos y la experiencia en el mercado de más de 15 a&#xf1;os.
+                </p>
+            </section>
+            <section>
+                <h3 id="benefits">Beneficio</h3>
+                <p>
+                    Los beneficios que ofrecemos son: un precio competitivo, calidad en materiales y acabados,
+                    la atenci&#xf3;n que reciben nuestros clientes y la experiencia que nos avala en el mercado.
+                </p>
+            </section>
         </section>
-        <section>
-            <h3>Misi&#xf3;n</h3>
-            <p>
-                "Participar activamente en el desarrollo de la industria para proveer los mejores empaques brindando la
-                satisfacci&#xf3;n a nuestros clientes nacionales e internacionales, por medio del compromiso de cada uno
-                de nosotros en dar valor a nuestros productos y clientes."
-            </p>
-        </section>
-        <section>
-            <h3>Visi&#xf3;n</h3>
-            <p>
-                "Ser reconocidos por la calidad de nuestros productos, experiencia, seriedad y crecimiento en la
-                industria nacional e internacional."
-            </p>
-        </section>
-        <section>
-            <h3>Perfil</h3>
-            <p>
-                Nuestro perfil es de una empresa en desarrollo con experiencia en el mercado y flexibilidad de
-                operaciones que nos permite estar en constante contacto con nuestros clientes y proveedores. Buscando
-                siempre la calidad en nuestros productos y un servicio satisfactorio.
-            </p>
-        </section>
-        <section>
-            <h3>Enfoque</h3>
-            <p>
-                Nuestro enfoque se encuentra en la calidad de productos y en la diversidad de nuestras l&#xed;neas
-                proveyendo de soluciones para nuestros clientes.
-            </p>
-        </section>
-        <section>
-            <h3>Ventaja Competitiva</h3>
-            <p>
-                Nuestra ventaja competitiva radica en la flexibilidad en el servicio, la calidad de los insumos, la gama
-                de productos que manejamos y la experiencia en el mercado de más de 15 a&#xf1;os.
-            </p>
-        </section>
-        <section>
-            <h3>Beneficio</h3>
-            <p>
-                Los beneficios que ofrecemos son: un precio competitivo, calidad en materiales y acabados, la
-                atenci&#xf3;n que reciben nuestros clientes y la experiencia que nos avala en el mercado.
-            </p>
-        </section>
+        <nav class="contents-nav">
+            <h3>Acerca de Nosotros</h3>
+            <ul>
+                <li><a href="#history">Historia</a></li>
+                <li><a href="#mission">Mision</a></li>
+                <li><a href="#vision">Vision</a></li>
+                <li><a href="#profile">Perfil</a></li>
+                <li><a href="#focus">Enfoque</a></li>
+                <li><a href="#competitive-advantage">Ventaja Competitiva</a></li>
+                <li><a href="#benefits">Beneficio</a></li>
+            </ul>
+        </nav>
     </section>
 {% endblock %}
-
-

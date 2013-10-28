@@ -226,6 +226,12 @@ header h1 a {
     box-shadow: 0px 0px 10px #bbb;
 }
 
+
+.main-content h2,
+.main-content h3 {
+    color: #299344;
+}
+
 .main-content p {
     font-size: 15px;
 }

@@ -10,6 +10,4 @@ class DefaultController extends Controller
     {
         return $this->render('JacAboutUsBundle:Default:index.html.twig');
     }
-
-
 }
