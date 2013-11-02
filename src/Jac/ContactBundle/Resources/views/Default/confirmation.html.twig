@@ -1,0 +1,22 @@
+{% extends 'JacHomeBundle:Default:main.html.twig' %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    <style>
+        .main-content {
+            height: 250px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .main-content h2 {
+            margin: 109px 0 109px 10px;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+    <section class="main-content">
+        <h2>&#xa1;Gracias por su correo! En breve le daremos respuesta.</h2>
+    </section>
+{% endblock %}

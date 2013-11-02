@@ -1,3 +1,7 @@
 jac_contact_homepage:
     pattern:  /contact/
     defaults: { _controller: JacContactBundle:Default:index }
+
+jac_contact_confirmation:
+    pattern:  /contact/confirmation/
+    defaults: { _controller: JacContactBundle:Default:confirmation }

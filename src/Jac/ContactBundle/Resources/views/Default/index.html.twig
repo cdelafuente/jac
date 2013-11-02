@@ -1,6 +1,7 @@
 {% extends 'JacHomeBundle:Default:main.html.twig' %}
 
-{% block content %}
+{% block stylesheets %}
+    {{ parent() }}
     <style>
         /*
          * Page layout
@@ -79,6 +80,8 @@
             border: none;
             background-color: transparent;
             margin-top: 5px;
+            font-family: "swiss721lightbtregular";
+            font-size: 0.9em;
         }
 
 
@@ -235,6 +238,9 @@
             background: url('/jac/web/bundles/jaccontact/images/contact_twitter_icon.png')
         }
     </style>
+{% endblock %}
+
+{% block content %}
     <section class="main-content">
         <div id="content">
             <form id="contact-form" method="post" action=".">
