@@ -1,0 +1,7 @@
+parameters:
+#    jac_contact.example.class: Jac\ContactBundle\Example
+
+services:
+#    jac_contact.example:
+#        class: %jac_contact.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
