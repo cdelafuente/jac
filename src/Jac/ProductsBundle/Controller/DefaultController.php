@@ -10,4 +10,9 @@ class DefaultController extends Controller
     {
         return $this->render('JacProductsBundle:Default:index.html.twig');
     }
+
+    public function catalogAction()
+    {
+        return $this->render('JacProductsBundle:Default:products.html.twig');
+    }
 }

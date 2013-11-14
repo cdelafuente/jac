@@ -11,4 +11,9 @@ class DefaultController extends Controller
     {
         return $this->render('JacHomeBundle:Default:index.html.twig');
     }
+
+    public function privacyNoticeAction()
+    {
+        return $this->render('JacHomeBundle:Default:privacy_notice.html.twig');
+    }
 }

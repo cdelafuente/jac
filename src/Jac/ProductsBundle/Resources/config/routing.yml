@@ -1,3 +1,7 @@
 jac_products_homepage:
     pattern:  /products/
     defaults: { _controller: JacProductsBundle:Default:index }
+
+jac_products_catalog:
+    pattern:  /products/catalog/
+    defaults: { _controller: JacProductsBundle:Default:catalog }

@@ -1,3 +1,7 @@
 jac_home_homepage:
     pattern:  /
     defaults: { _controller: JacHomeBundle:Default:index }
+
+jac_home_privacy_notice:
+    pattern: /privacy-notice/
+    defaults: { _controller: JacHomeBundle:Default:privacyNotice }
