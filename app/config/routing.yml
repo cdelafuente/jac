@@ -1,3 +1,7 @@
+jac_catalog:
+    resource: "@JacCatalogBundle/Resources/config/routing.yml"
+    prefix:   /
+
 jac_contact:
     resource: "@JacContactBundle/Resources/config/routing.yml"
     prefix:   /

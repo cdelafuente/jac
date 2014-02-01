@@ -20,6 +20,7 @@ class AppKernel extends Kernel
             new Jac\ProductsBundle\JacProductsBundle(),
             new Jac\AboutUsBundle\JacAboutUsBundle(),
             new Jac\ContactBundle\JacContactBundle(),
+            new Jac\CatalogBundle\JacCatalogBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

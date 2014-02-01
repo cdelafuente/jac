@@ -1,0 +1,58 @@
+{% extends 'JacCatalogBundle:Default:base.html.twig' %}
+
+{% block page_title %}A&#xf1;adir Articulo{% endblock %}
+
+{% block page_css %}
+    <style>
+        #product-item-form-category a {
+            display: block;
+            font-size: 0.7em;
+        }
+    </style>
+{% endblock %}
+
+{% block page_content %}
+    <nav>
+        <ul>
+            <li>
+                <a href="{{ path('jac_catalog_homepage') }}">Inicio</a> /
+            </li>
+            <li>
+                <span>A&#xf1;adir Articulo</span>
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <h2>A&#xf1;adir Articulo</h2>
+        <form id="product-item-form" action="" method="post">
+            <p id="product-item-form-category" class="form-field">
+                <label>
+                    Categor&#xed;a
+                </label>
+                <select>
+                    <option>No hay categorias disponibles</option>
+                </select>
+                <a href="{{ path('jac_catalog_add_category') }}">A&#xf1;adir nueva categor&#xed;a...</a>
+            </p>
+            <p id="product-item-form-ref-1" class="form-field">
+                <label>Referencia 1</label>
+                <input name="ref-a" type="text" />
+            </p>
+            <p id="product-item-form-ref-2" class="form-field">
+                <label>Referencia 2</label>
+                <input name="ref-b" type="text" />
+            </p>
+            <p id="product-item-form-picture" class="form-field">
+                <label>Im&#xe1;gen</label>
+                <input type="file" />
+            </p>
+            <p id="product-item-form-application" class="form-field">
+                <label>Aplicaci&#xf3;n</label>
+                <textarea></textarea>
+            </p>
+            <p class="form-field">
+                <input type="submit" value="Guardar" />
+            </p>
+        </form>
+    </section>
+{% endblock %}

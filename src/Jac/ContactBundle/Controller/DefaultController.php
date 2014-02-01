@@ -15,7 +15,6 @@ class DefaultController extends Controller
                                  array('contact' => $contact));
     }
 
-
     public function indexAction(Request $request)
     {
         $contact = new Contact();
@@ -72,7 +71,6 @@ class DefaultController extends Controller
         return $this->render('JacContactBundle:Default:index.html.twig',
                              array('form' => $form->createView()));
     }
-
 
     public function confirmationAction()
     {

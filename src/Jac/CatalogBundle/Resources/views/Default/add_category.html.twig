@@ -1,0 +1,30 @@
+{% extends 'JacCatalogBundle:Default:base.html.twig' %}
+
+{% block page_title %}A&#xf1;adir Categor&#xed;a{% endblock %}
+
+{% block page_content %}
+    <nav>
+        <ul>
+            <li>
+                <a href="{{ path('jac_catalog_homepage') }}">Inicio</a> /
+            </li>
+            <li>
+                <span>A&#xf1;adir Categor&#xed;a</span>
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <h2>A&#xf1;adir Categor&#xed;a</h2>
+        <form id="category-form" action="" method="post">
+            <p id="category-form-name" class="form-field">
+                <label>
+                    Categor&#xed;a:
+                </label>
+                <input name="category-name" type="text" />
+            </p>
+            <p class="form-field">
+                <input type="submit" value="Guardar">
+            </p>
+        </form>
+    </section>
+{% endblock %}

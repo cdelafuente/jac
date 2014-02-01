@@ -1,0 +1,7 @@
+jac_catalog_homepage:
+    pattern:  /catalog/
+    defaults: { _controller: JacCatalogBundle:Default:index }
+
+jac_catalog_add_category:
+    pattern:  /catalog/add/category/
+    defaults: { _controller: JacCatalogBundle:Default:addCategory }
