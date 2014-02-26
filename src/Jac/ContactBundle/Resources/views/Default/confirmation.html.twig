@@ -4,17 +4,7 @@
 
 {% block stylesheets %}
     {{ parent() }}
-    <style>
-        .main-content {
-            height: 250px;
-            margin-top: 20px;
-            margin-bottom: 20px;
-        }
-
-        .main-content h2 {
-            margin: 109px 0 109px 10px;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="{{ asset('bundles/jaccontact/css/confirmation.css') }}">
 {% endblock %}
 
 {% block content %}

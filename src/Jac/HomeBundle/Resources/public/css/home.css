@@ -1,0 +1,74 @@
+.main-content {
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 115px;
+}
+
+.main-content:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 522px;
+    background: url('../images/history_side_picture.png');
+    top: -90px;
+    left: -60px;
+}
+
+.main-content h2 {
+    border-bottom: 1px solid #299344;
+    padding-bottom: 5px;
+    font-size: 2em;
+}
+
+.main-content h2:before,
+.main-content h2:after {
+    content: '';
+    display: block;
+    background: url('../images/rivet.png');
+    position: absolute;
+    width: 49px;
+    height: 49px;
+}
+
+.main-content h2:before {
+    top: 0;
+    right: 0;
+
+}
+
+.main-content h2:after {
+    bottom: 0;
+    right: 0;
+}
+
+.main-content h2,
+.main-content p {
+    width: 650px;
+    margin-left: 250px;
+}
+
+a:link,
+a:visited,
+a:active {
+    color: #0054a6;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0054a6;
+    text-decoration: underline;
+}
+
+#more-products {
+    clear: both;
+    padding-bottom: 60px;
+}
+
+#more-products img {
+    float: left;
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}

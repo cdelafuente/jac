@@ -1,0 +1,93 @@
+.main-content h2 {
+    font-size: 2em;
+}
+
+.main-content h2:before,
+.main-content h2:after,
+.main-content #history:before
+{
+    content: '';
+    display: block;
+    width: 49px;
+    height: 49px;
+    position: absolute;
+    background: url('../images/rivet.png');
+}
+
+.main-content h2:before {
+    top: 0;
+    right: 0;
+}
+
+.main-content h2:after {
+    bottom: 0;
+    right: 0;
+}
+
+.main-content h3 {
+    font-size: 1.5em;
+    border-bottom: 1px solid #299344;
+    padding-bottom: 5px;
+}
+
+.main-content h3:before {
+    left: 0;
+    bottom: 0;
+}
+
+.main-content {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+    width: 930px;
+}
+
+.main-content:before {
+    content: '';
+    display: block;
+    width: 300px;
+    height: 377px;
+    background: url('../images/about_us_history.png');
+    position: absolute;
+    top: -30px;
+    left: -70px;
+}
+
+.main-content section {
+    margin-bottom: 30px;
+}
+
+.main-content .content {
+    margin-left: 250px;
+    width: 430px;
+}
+
+.contents-nav {
+    position: absolute;
+    top: 97px;
+    right: 50px;
+}
+
+.contents-nav h3 {
+    color: #000;
+    font-size: 1em;
+}
+
+.contents-nav a:link,
+.contents-nav a:visited,
+.contents-nav a:active {
+    color: #299344;
+    text-decoration: none;
+}
+
+.contents-nav a:hover {
+    color: #299344;
+    text-decoration: underline;
+}
+
+.contents-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

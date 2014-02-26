@@ -4,242 +4,9 @@
 
 {% block stylesheets %}
     {{ parent() }}
-    <style>
-        /*
-         * Page layout
-         */
-        .main-content {
-            background: transparent;
-            box-shadow: none;
-            margin-top: 0;
-            margin-bottom: 0;
-            padding-top: 0;
-            padding-bottom: 0px;
-        }
-
-        #content {
-            float: left;
-            width: 680px;
-            margin: 20px 125px;
-        }
-
-
-        /* ******************************** */
-        /*           Contact Form           */
-        /* ******************************** */
-
-        /*
-         * Form layout.
-         */
-        #contact-form {
-            width: 350px;
-            float: left;
-            padding-right: 25px;
-            margin-right: 25px;
-            border-right: 2px dotted #666;
-        }
-
-        #contact-form fieldset {
-            border: none;
-            padding: 0;
-            margin: 0;
-        }
-
-
-        /*
-         * Form field styling.
-         */
-        .form-field {
-            background-color: #00996b;
-            border-radius: 5px;
-            width: 350px;
-            float: left;
-            margin: 5px 0;
-        }
-
-        .form-field label {
-            background-color: #666;
-            color: #fff;
-            padding: 5px 33px 5px 15px;
-            border-radius: 5px;
-            position: relative;
-            float: left;
-            margin-right: 5px;
-        }
-
-        .form-field label:after {
-            content: '';
-            background: url('/jac/web/bundles/jaccontact/images/field_arrow.png') no-repeat;
-            width: 18px;
-            height: 17px;
-            position: absolute;
-            top: 5px;
-            right: 5px;
-        }
-
-        .form-field input,
-        .form-field textarea {
-            border: none;
-            background-color: transparent;
-            margin-top: 5px;
-            font-family: "swiss721lightbtregular";
-            font-size: 0.9em;
-        }
-
-
-        /*
-         * Form field dimensions.
-         */
-        #contact-form-company-name input {
-            width: 231px;
-        }
-
-        #contact-form-full-name input {
-            width: 237px;
-        }
-
-        #contact-form-position input {
-            width: 190px;
-        }
-
-        #contact-form-address input {
-            width: 228px;
-        }
-
-        #contact-form-phone-number input {
-            width: 234px;
-        }
-
-        #contact-form-fax-number input {
-            width: 266px;
-        }
-
-        #contact-form-email-address input {
-            width: 169px;
-        }
-
-        #contact-form-comments textarea {
-            width: 207px;
-            height: 80px;
-            margin-bottom: 5px;
-        }
-
-        #contact-form-submit {
-            background-color: transparent;
-            text-align: right;
-        }
-
-
-        /*
-         * Submit button.
-         */
-        .contact-button {
-            border: none;
-            padding: 9px 6px;
-            text-decoration: none;
-            display: inline-block;
-
-            /* Make the button corners completely round */
-            -webkit-border-radius: 22px;
-            -moz-border-radius: 22px;
-            border-radius: 22px;
-
-            /* Outer gradient */
-            background-color: #c5c7c9;
-            background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c5c7c9), color-stop(100%, #e3e4e4));
-            background-image: -webkit-linear-gradient(top, #c5c7c9, #e3e4e4);
-            background-image: -moz-linear-gradient(top, #c5c7c9, #e3e4e4);
-            background-image: -ms-linear-gradient(top, #c5c7c9, #e3e4e4);
-            background-image: -o-linear-gradient(top, #c5c7c9, #e3e4e4);
-            background-image: linear-gradient(top, #c5c7c9, #e3e4e4);
-
-            cursor: pointer;
-        }
-
-        .contact-button span {
-            padding: 3px 10px;
-            color: #fff;
-            text-shadow: 1px 1px #888;
-            font-size: 13px;
-
-            /* Make the button corners completely round */
-            -webkit-border-radius: 15px;
-            -moz-border-radius: 15px;
-            border-radius: 15px;
-
-            /* Inner gradient */
-            background-color: #565656;
-            background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7e7e7e), color-stop(100%, #565656));
-            background-image: -webkit-linear-gradient(top, #7e7e7e, #565656);
-            background-image: -moz-linear-gradient(top, #7e7e7e, #565656);
-            background-image: -ms-linear-gradient(top, #7e7e7e, #565656);
-            background-image: -o-linear-gradient(top, #7e7e7e, #565656);
-            background-image: linear-gradient(top, #7e7e7e, #565656);
-        }
-
-
-        /* *************************************** */
-        /*           Contact Information           */
-        /* *************************************** */
-        #contact-info {
-            float: left;
-        }
-
-        #contact-info h2,
-        #contact-form h2 {
-            color: #666;
-        }
-
-        #contact-info ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            color: #666;
-        }
-
-        #phone-number,
-        #fax-number,
-        #email-address {
-            margin-bottom: 15px;
-        }
-
-
-        /*
-         * Set contact information icons
-         */
-        #phone-number:before,
-        #fax-number:before,
-        #email-address:before,
-        #twitter:before {
-            content: '';
-            display: block;
-        }
-
-
-        #phone-number:before {
-            width: 51px;
-            height: 42px;
-            background: url('/jac/web/bundles/jaccontact/images/contact_phone_icon.png');
-        }
-
-        #fax-number:before {
-            width: 47px;
-            height: 45px;
-            background: url('/jac/web/bundles/jaccontact/images/contact_fax_icon.png');
-        }
-
-        #email-address:before {
-            width: 51px;
-            height: 39px;
-            background: url('/jac/web/bundles/jaccontact/images/contact_email_icon.png');
-        }
-
-        #twitter:before {
-            width: 46px;
-            height: 46px;
-            background: url('/jac/web/bundles/jaccontact/images/contact_twitter_icon.png')
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="{{ asset('bundles/jaccontact/css/contact.css') }}" />
+    <script src="{{ asset('bundles/jaccontact/js/jquery-1.11.0.min.js') }}"></script>
+    <script src="{{ asset('bundles/jaccontact/js/contact.js') }}"></script>
 {% endblock %}
 
 {% block content %}
@@ -255,36 +22,48 @@
                         {{ form_widget(form.companyName) }}
                         {{ form_errors(form.companyName) }}
                     </p>
-                    <p id="contact-form-full-name" class="form-field">
-                        {{ form_label(form.fullName) }}
-                        {{ form_widget(form.fullName) }}
-                        {{ form_errors(form.fullName) }}
-                    </p>
+                    <div id="contact-form-full-name" class="field">
+                        <p class="form-field">
+                            {{ form_label(form.fullName) }}
+                            {{ form_widget(form.fullName) }}
+                            {{ form_errors(form.fullName) }}
+                        </p>
+                        <p class="error">Por favor, introduzca su nombre.</p>
+                    </div>
                     <p id="contact-form-position" class="form-field">
                         {{ form_label(form.position) }}
                         {{ form_widget(form.position) }}
                         {{ form_errors(form.position) }}
                     </p>
-                    <p id="contact-form-address" class="form-field">
-                        {{ form_label(form.address) }}
-                        {{ form_widget(form.address) }}
-                        {{ form_errors(form.address) }}
-                    </p>
-                    <p id="contact-form-phone-number" class="form-field">
-                        {{ form_label(form.phoneNumber) }}
-                        {{ form_widget(form.phoneNumber) }}
-                        {{ form_errors(form.phoneNumber) }}
-                    </p>
+                    <div id="contact-form-address" class="field">
+                        <p class="form-field">
+                            {{ form_label(form.address) }}
+                            {{ form_widget(form.address) }}
+                            {{ form_errors(form.address) }}
+                        </p>
+                        <p class="error">Por favor, introduzca su dirección.</p>
+                    </div>
+                    <div id="contact-form-phone-number" class="field">
+                        <p class="form-field">
+                            {{ form_label(form.phoneNumber) }}
+                            {{ form_widget(form.phoneNumber) }}
+                            {{ form_errors(form.phoneNumber) }}
+                        </p>
+                        <p class="error">Por favor, introduzca su número de teléfono</p>
+                    </div>
                     <p id="contact-form-fax-number" class="form-field">
                         {{ form_label(form.faxNumber) }}
                         {{ form_widget(form.faxNumber) }}
                         {{ form_errors(form.faxNumber) }}
                     </p>
-                    <p id="contact-form-email-address" class="form-field">
-                        {{ form_label(form.emailAddress) }}
-                        {{ form_widget(form.emailAddress) }}
-                        {{ form_errors(form.emailAddress) }}
-                    </p>
+                    <div id="contact-form-email-address" class="field">
+                        <p class="form-field">
+                            {{ form_label(form.emailAddress) }}
+                            {{ form_widget(form.emailAddress) }}
+                            {{ form_errors(form.emailAddress) }}
+                        </p>
+                        <p class="error">Por favor, introduzca su dirección de correo eletrónico</p>
+                    </div>
                     <p id="contact-form-where" class="form-field">
                         {{ form_label(form.whereDidYouLearnAboutUs) }}
                         {{ form_widget(form.whereDidYouLearnAboutUs) }}

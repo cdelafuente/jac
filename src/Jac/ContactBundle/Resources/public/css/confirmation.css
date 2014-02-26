@@ -1,0 +1,12 @@
+/* Content container */
+.main-content {
+    height: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Success message */
+.main-content h2 {
+    margin: 109px 0 109px 10px;
+    text-align: center;
+}
