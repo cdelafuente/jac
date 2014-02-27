@@ -1,6 +1,8 @@
 jac_home_homepage:
-    pattern:  /
-    defaults: { _controller: JacHomeBundle:Default:index }
+    pattern:  /{_locale}/
+    defaults: { _controller: JacHomeBundle:Default:index, _locale: es }
+    requirements:
+      _locale: en|es
 
 jac_home_privacy_notice:
     pattern: /privacy-notice/

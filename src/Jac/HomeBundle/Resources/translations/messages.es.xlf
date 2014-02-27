@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="1">
+                <source>home.content.heading</source>
+                <target>Historia</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>home.content.history</source>
+                <target>
+                    Juntas de Alta Calidad fue fundada en 1990, est&#xe1; dedicada a la producci&#xf3;n y
+                    comercializaci&#xf3;n de juntas para servicio pesado, orientadas a los motores Diesel: Cummins,
+                    Perkins, Mercedes-Benz y Navistar, as&#xed; como para transmisiones. Nuestra organizaci&#xf3;n
+                    se configur&#xf3; debido a la necesidad planteada por el mercado del autotransporte de pasaje y
+                    carga en el pa&#xed;s, de disponer de juntas que garantizan la adecuada operaci&#xf3;n de los
+                    componentes.
+                </target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>home.more_products.link</source>
+                <target>Conoce nuestros productos</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>home.more_products.content</source>
+                <target>tenemos una gran diversidad de juntas en nuestras l&#xed;neas de productos.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

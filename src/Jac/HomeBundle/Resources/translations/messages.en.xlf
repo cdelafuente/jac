@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="1">
+                <source>home.content.heading</source>
+                <target>History</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>home.content.history</source>
+                <target>
+                    Juntas de Alta Calidad was founded in 1990, we are dedicated to the production and marketing of
+                    heavy-duty gaskets for diesel engines: Cummins, Perkins, Mercedes-Benz and Navistar,
+                    as well for transmissions. Our organization was created due to the high demand in the cargo and
+                    transportation market in the country for gaskets that ensure proper operation of each of the
+                    components.
+                </target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>home.more_products.link</source>
+                <target>Learn more about our products</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>home.more_products.content</source>
+                <target>we have a great variety of gaskets in our lines of products.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
