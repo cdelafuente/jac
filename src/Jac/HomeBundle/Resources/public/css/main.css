@@ -31,9 +31,12 @@ header section {
 }
 
 #top-navigation ul {
-    padding: 0;
     margin: 0;
     list-style-type: none;
+}
+
+#languages {
+  position: relative;
 }
 
 #languages,
@@ -81,7 +84,34 @@ header section {
 }
 
 #language-items {
-    display: none;
+  display: none;
+  font-family: swiss721lightbtregular;
+  font-size: 13px;
+  background-color: #299344;
+  position: absolute;
+  bottom: -47px;
+  left: 11px;
+  width: 55px;
+  padding: 5px;
+  -webkit-border-radius: 0 0 5px 5px;
+  -moz-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+}
+
+#language-items a:link,
+#language-items a:visited,
+#language-items a:active {
+  text-decoration: none;
+  color: #fff;
+}
+
+#language-items a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+#language-item-es {
+  padding-top: 3px;
 }
 
 

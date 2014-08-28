@@ -5,5 +5,7 @@ jac_home_homepage:
       _locale: en|es
 
 jac_home_privacy_notice:
-    pattern: /privacy-notice/
-    defaults: { _controller: JacHomeBundle:Default:privacyNotice }
+    pattern: /{_locale}/privacy-notice
+    defaults: { _controller: JacHomeBundle:Default:privacyNotice, _locale: es }
+    requirements:
+      _locale: en|es

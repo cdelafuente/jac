@@ -13,12 +13,12 @@
             <nav id="top-navigation">
                 <ul class="top-navigation-items">
                     <li id="languages">
-                        <a href="">
+                        <a href="#">
                             <span>{{ 'main.top_nav.language'|trans }}</span>
                         </a>
                         <ul id="language-items">
-                            <li><a href="">English</a></li>
-                            <li><a href="">Español</a></li>
+                            <li id="language-item-en"><a href="{{ path('jac_home_homepage', {'_locale': 'en'}) }}">English</a></li>
+                            <li id="language-item-es"><a href="{{ path('jac_home_homepage', {'_locale': 'es'}) }}">Español</a></li>
                         </ul>
                     </li>
                     <li id="top-navigation-twitter">
@@ -58,4 +58,33 @@
 {% block javascripts %}
     <script src="{{ asset('bundles/jachome/js/jquery-1.10.2.min.js') }}"></script>
     <script src="{{ asset('bundles/jachome/js/main.ui.js') }}"></script>
+    <script>
+      function LanguageMenu() {
+        this.button = $('#languages > a');
+        this.menu = $('#language-items');
+        this.isEnabled = false;
+
+        this.onBtnClick();
+      }
+
+      $.extend(LanguageMenu.prototype, {
+        onBtnClick: function() {
+          var self = this;
+          this.button.click(function() {
+            if (!self.isEnabled)
+            {
+              self.isEnabled = true;
+              self.menu.show();
+            }
+            else
+            {
+              self.isEnabled = false;
+              self.menu.hide();
+            }
+          });
+        }
+      });
+
+      var menu = new LanguageMenu();
+    </script>
 {% endblock %}
