@@ -1,5 +1,5 @@
 jac_home_homepage:
-    pattern:  /{_locale}/
+    pattern:  /{_locale}
     defaults: { _controller: JacHomeBundle:Default:index, _locale: es }
     requirements:
       _locale: en|es

@@ -25,6 +25,24 @@
                 <source>home.more_products.content</source>
                 <target>tenemos una gran diversidad de juntas en nuestras l&#xed;neas de productos.</target>
             </trans-unit>
+
+            <!-- Main navigation content -->
+            <trans-unit id="5">
+              <source>main.nav.home</source>
+              <target>Inicio</target>
+            </trans-unit>
+            <trans-unit id="6">
+              <source>main.nav.about_us</source>
+              <target>Nosotros</target>
+            </trans-unit>
+            <trans-unit id="7">
+              <source>main.nav.products</source>
+              <target>Productos</target>
+            </trans-unit>
+            <trans-unit id="8">
+              <source>main.nav.contact</source>
+              <target>Contacto</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>

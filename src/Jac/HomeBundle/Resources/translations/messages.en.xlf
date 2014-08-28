@@ -24,6 +24,24 @@
                 <source>home.more_products.content</source>
                 <target>we have a great variety of gaskets in our lines of products.</target>
             </trans-unit>
+
+            <!-- Main navigation content -->
+            <trans-unit id="5">
+              <source>main.nav.home</source>
+              <target>Home</target>
+            </trans-unit>
+            <trans-unit id="6">
+              <source>main.nav.about_us</source>
+              <target>About Us</target>
+            </trans-unit>
+            <trans-unit id="7">
+              <source>main.nav.products</source>
+              <target>Products</target>
+            </trans-unit>
+            <trans-unit id="8">
+              <source>main.nav.contact</source>
+              <target>Contact</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>
