@@ -14,7 +14,7 @@
                 <ul class="top-navigation-items">
                     <li id="languages">
                         <a href="">
-                            <span>Idioma</span>
+                            <span>{{ 'main.top_nav.language'|trans }}</span>
                         </a>
                         <ul id="language-items">
                             <li><a href="">English</a></li>
@@ -45,12 +45,12 @@
     <footer>
         <div class="content">
             <p id="copyright">
-                Copyright &#169; 2103. Todos los derechos reservados.
+                Copyright &#169; 2103. {{ 'main.footer.copyright'|trans }}.
             </p>
             <ul id="footer-contact-info">
                 <li><a href="mailto:contacto@juntasdecalidad.com.mx">contacto@juntasdecalidad.com.mx</a></li>
-                <li>+52 01 55 5686-2612 / +52 01 55 5686-9041</li>
-                <li><a href="{{ path('jac_home_privacy_notice') }}">Aviso de privacidad</a></li>
+                <li>{{ 'main.footer.phone_numbers'|trans }}</li>
+                <li><a href="{{ path('jac_home_privacy_notice') }}">{{ 'main.footer.privacy_notice'|trans }}</a></li>
             </ul>
         </div>
     </footer>

@@ -42,6 +42,26 @@
               <source>main.nav.contact</source>
               <target>Contact</target>
             </trans-unit>
+
+            <!-- Top navigation content -->
+            <trans-unit id="9">
+              <source>main.top_nav.language</source>
+              <target>Language</target>
+            </trans-unit>
+
+            <!-- Footer content -->
+            <trans-unit id="10">
+              <source>main.footer.copyright</source>
+              <target>All rights reserved</target>
+            </trans-unit>
+            <trans-unit id="11">
+              <source>main.footer.phone_numbers</source>
+              <target>+52 01 55 5686-2612 / +52 01 55 5686-9041</target>
+            </trans-unit>
+            <trans-unit id="12">
+              <source>main.footer.privacy_notice</source>
+              <target>Privacy notice</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>
