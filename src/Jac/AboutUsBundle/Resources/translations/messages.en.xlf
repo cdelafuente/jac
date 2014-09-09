@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="1">
+                <source>about_us.about_us</source>
+                <target>About Us</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>about_us.history</source>
+                <target>History</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>about_us.history.content</source>
+                <target>
+                  <![CDATA[
+                  <p>Juntas de Alta Calidad was founded in 1990, we are dedicated to the production and marketing of heavy-duty gaskets for diesel engines: Cummins, Perkins, Mercedes-Benz and Navistar, as well as for transmission systems, drive shafts and gaskets for compressors. Our organization was born due to the need in the market of road transportation in the country of gaskets that ensure the proper operation of its components.</p>
+                  <p>Nowadays the demand for gaskets is not being satisfied by the national manufacturers, and from there is where we find the potential for growth for our company.</p>
+                  <p>Juntas de Alta Calidad is a 100% Mexican company with broad experience in the national market. This has allowed us to identify their needs, and to be able to rapidly adapt our operations in order to satisfy them.
+                  <br />
+                   Our headquarters are located in Mexico City, together with a production plant.</p> 
+                  ]]>
+                </target>
+            </trans-unit>
+            <trans-unit id="4">
+              <source>about_us.mission</source>
+              <target>
+                Mission 
+              </target>
+            </trans-unit>
+            <trans-unit id="5">
+              <source>about_us.mission.content</source>
+              <target>
+                Our mission is to actively participate in the development of the industry to provide the best gaskets that satisfy the needs of our national and international clients, through the commitment of each of us to add value to our products and out customers. 
+              </target>
+            </trans-unit>
+            <trans-unit id="6">
+              <source>about_us.vision</source>
+              <target>
+               Vision 
+              </target>
+            </trans-unit>
+            <trans-unit id="7">
+              <source>about_us.vision.content</source>
+              <target>
+                Our vision is to be recognized for the quality of our products, experience, reliability and growth in the national and international industry.
+              </target>
+            </trans-unit>
+            <trans-unit id="8">
+              <source>about_us.profile</source>
+              <target>
+                Profile 
+              </target>
+            </trans-unit>
+            <trans-unit id="9">
+              <source>about_us.profile.content</source>
+              <target>
+                 Our profile is of a developing company with extensive experience in the market and with flexibility in our operations that allows us to be in constant contact with our customers and providers. We are always in the search for quality in our products and a great customer experience.
+              </target>
+            </trans-unit>
+            <trans-unit id="10">
+              <source>about_us.focus</source>
+              <target>
+                Focus 
+              </target>
+            </trans-unit>
+            <trans-unit id="11">
+              <source>about_us.focus.content</source>
+              <target>
+                Our focus is on the quality of our products and on the diversity of product lines in order to provide solutions to our customers.
+              </target>
+            </trans-unit>
+            <trans-unit id="12">
+              <source>about_us.competitive_advantage</source>
+              <target>
+                Competitive Advantage
+              </target>
+            </trans-unit>
+            <trans-unit id="13">
+              <source>about_us.competitive_advantage.content</source>
+              <target>
+                Our competitive advantage lies in the flexibility of our customer service, the quality of out inputs, the range of out products and the extensive experience in the market of more than 15 years.
+              </target>
+            </trans-unit>
+            <trans-unit id="14">
+              <source>about_us.benefits</source>
+              <target>
+                Benefits
+              </target>
+            </trans-unit>
+            <trans-unit id="15">
+              <source>about_us.benefits.content</source>
+              <target>
+                The benefits we offer are: very competitive prices, high quality materials and finishes, a great customer service and an extensive experience that supports us in the market.
+              </target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

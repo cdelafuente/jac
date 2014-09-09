@@ -1,3 +1,5 @@
 jac_about_us_homepage:
-    pattern:  /about_us/
-    defaults: { _controller: JacAboutUsBundle:Default:index }
+    pattern:  /about_us/{_locale}
+    defaults: { _controller: JacAboutUsBundle:Default:index, _locale: es }
+    requirements:
+      _locale: en|es

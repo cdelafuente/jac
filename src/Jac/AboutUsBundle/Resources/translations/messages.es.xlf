@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="1">
+                <source>about_us.about_us</source>
+                <target>Acerca de Nosotros</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>about_us.history</source>
+                <target>Historia</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>about_us.history.content</source>
+                <target>
+                  <![CDATA[
+                  <p>Juntas de Alta Calidad fue fundada en 1990, está dedicada a la producción y comercialización de juntas para servicio pesado, orientadas a los motores Diesel: Cummins, Perkins, Mercedes-Benz y Navistar, así como para transmisiones, flechas y juntas para compresores. Nuestra organización se configuró debido a la necesidad planteada por el mercado del autotransporte de pasaje y carga en el país, de disponer de juntas que garantizan la adecuada operación de los componentes.</p>
+
+                  <p>Actualmente la demanda está insatisfecha por la producción nacional llevada a cabo por los actuales fabricantes, de allí el potencial para el crecimiento de nuestra empresa.</p>
+
+                  <p>Juntas de Alta Calidad es una empresa 100% mexicana, con amplia experiencia en el mercado nacional, lo cual nos ha permitido detectar las necesidades del mismo, adaptándolas rápidamente a nuestras operaciones.
+                  <br />
+                   Nuestras oficinas generales se encuentran ubicadas en el Distrito Federal, en donde se cuenta con una planta de producción.</p> 
+                  ]]>
+                </target>
+            </trans-unit>
+            <trans-unit id="4">
+              <source>about_us.mission</source>
+              <target>
+                Misión
+              </target>
+            </trans-unit>
+            <trans-unit id="5">
+              <source>about_us.mission.content</source>
+              <target>
+                Participar activamente en el desarrollo de la industria para proveer los mejores empaques brindando la satisfacción a nuestros clientes nacionales e internacionales, por medio del compromiso de cada uno de nosotros en dar valor a nuestros productos y clientes.
+              </target>
+            </trans-unit>
+            <trans-unit id="6">
+              <source>about_us.vision</source>
+              <target>
+                Visión 
+              </target>
+            </trans-unit>
+            <trans-unit id="7">
+              <source>about_us.vision.content</source>
+              <target>
+                Ser reconocidos por la calidad de nuestros productos, experiencia, seriedad y crecimiento en la industria nacional e internacional.
+              </target>
+            </trans-unit>
+            <trans-unit id="8">
+              <source>about_us.profile</source>
+              <target>
+                Perfil
+              </target>
+            </trans-unit>
+            <trans-unit id="9">
+              <source>about_us.profile.content</source>
+              <target>
+                Nuestro perfil es de una empresa en desarrollo con experiencia en el mercado y flexibilidad de operaciones que nos permite estar en constante contacto con nuestros clientes y proveedores. Buscando siempre la calidad en nuestros productos y un servicio satisfactorio. 
+              </target>
+            </trans-unit>
+            <trans-unit id="10">
+              <source>about_us.focus</source>
+              <target>
+                Enfoque
+              </target>
+            </trans-unit>
+            <trans-unit id="11">
+              <source>about_us.focus.content</source>
+              <target>
+                Nuestro enfoque se encuentra en la calidad de productos y en la diversidad de nuestras líneas proveyendo de soluciones para nuestros clientes.
+              </target>
+            </trans-unit>
+            <trans-unit id="12">
+              <source>about_us.competitive_advantage</source>
+              <target>
+                Ventaja Competitiva
+              </target>
+            </trans-unit>
+            <trans-unit id="13">
+              <source>about_us.competitive_advantage.content</source>
+              <target>
+                Nuestra ventaja competitiva radica en la flexibilidad en el servicio, la calidad de los insumos, la gama de productos que manejamos y la experiencia en el mercado de más de 15 años.
+              </target>
+            </trans-unit>
+            <trans-unit id="14">
+              <source>about_us.benefits</source>
+              <target>
+                Beneficio
+              </target>
+            </trans-unit>
+            <trans-unit id="15">
+              <source>about_us.benefits.content</source>
+              <target>
+                Los beneficios que ofrecemos son: un precio competitivo, calidad en materiales y acabados, la atención que reciben nuestros clientes y la experiencia que nos avala en el mercado.
+              </target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

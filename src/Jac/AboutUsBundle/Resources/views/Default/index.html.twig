@@ -10,86 +10,58 @@
 {% block content %}
     <section class="main-content">
         <section class="content">
-            <h2>Acerca de Nostros</h2>
+            <h2>{{ 'about_us.about_us'|trans }}</h2>
             <section>
-                <h3 id="history">Historia</h3>
+                <h3 id="history">{{ 'about_us.history'|trans }}</h3>
+                {{ 'about_us.history.content'|trans|raw }} 
+            </section>
+            <section>
+                <h3 id="mission">{{ 'about_us.mission'|trans }}</h3>
                 <p>
-                    Juntas de Alta Calidad fue fundada en 1990, est&#xe1; dedicada a la producci&#xf3;n y
-                    comercializaci&#xf3;n de juntas para servicio pesado, orientadas a los motores Diesel:
-                    Cummins, Perkins, Mercedes-Benz y Navistar, as&#xed; como para transmisiones,
-                    flechas y juntas para compresores. Nuestra organizaci&#xf3;n se configur&#xf3; debido
-                    a la necesidad planteada por el mercado del autotransporte de pasaje y carga
-                    en el pa&#xed;s, de disponer de juntas que garantizan la adecuada operaci&#xf3;n de los
-                    componentes.
-                </p>
-                <p>
-                    Actualmente la demanda est&#xe1; insatisfecha por la producci&#xf3;n nacional llevada
-                    a cabo por los actuales fabricantes, de all&#xed; el potencial para el crecimiento de
-                    nuestra empresa.
-                <p>
-                    Juntas de Alta Calidad es una empresa 100% mexicana, con amplia experiencia
-                    en el mercado nacional, lo cual nos ha permitido detectar las necesidades del
-                    mismo, adapt&#xe1;ndolas r&#xe1;pidamente a nuestras operaciones.<br />
-                    Nuestras oficinas generales se encuentran ubicadas en el Distrito Federal, en
-                    donde se cuenta con una planta de producci&#xf3;n.
+                  {{ 'about_us.mission.content'|trans }} 
                 </p>
             </section>
             <section>
-                <h3 id="mission">Misi&#xf3;n</h3>
+                <h3 id="vision">{{ 'about_us.vision'|trans }}</h3>
                 <p>
-                    Participar activamente en el desarrollo de la industria para proveer los mejores
-                    empaques brindando la satisfacci&#xf3;n a nuestros clientes nacionales e internacionales,
-                    por medio del compromiso de cada uno de nosotros en dar valor a nuestros productos y
-                    clientes.
+                  {{ 'about_us.vision.content'|trans }} 
                 </p>
             </section>
             <section>
-                <h3 id="vision">Visi&#xf3;n</h3>
+                <h3 id="profile">{{ 'about_us.profile'|trans }}</h3>
                 <p>
-                    Ser reconocidos por la calidad de nuestros productos, experiencia, seriedad y crecimiento
-                    en la industria nacional e internacional
+                  {{ 'about_us.profile.content'|trans }} 
                 </p>
             </section>
             <section>
-                <h3 id="profile">Perfil</h3>
+                <h3 id="focus">{{ 'about_us.focus'|trans }}</h3>
                 <p>
-                    Nuestro perfil es de una empresa en desarrollo con experiencia en el mercado y flexibilidad
-                    de operaciones que nos permite estar en constante contacto con nuestros clientes y proveedores.
-                    Buscando siempre la calidad en nuestros productos y un servicio satisfactorio.
+                  {{ 'about_us.focus.content'|trans }} 
                 </p>
             </section>
             <section>
-                <h3 id="focus">Enfoque</h3>
+                <h3 id="competitive-advantage">{{ 'about_us.competitive_advantage'|trans }}</h3>
                 <p>
-                    Nuestro enfoque se encuentra en la calidad de productos y en la diversidad de nuestras l&#xed;neas
-                    proveyendo de soluciones para nuestros clientes.
+                  {{ 'about_us.competitive_advantage.content'|trans }} 
                 </p>
             </section>
             <section>
-                <h3 id="competitive-advantage">Ventaja Competitiva</h3>
+                <h3 id="benefits">{{ 'about_us.benefits'|trans }}</h3>
                 <p>
-                    Nuestra ventaja competitiva radica en la flexibilidad en el servicio, la calidad de los insumos,
-                    la gama de productos que manejamos y la experiencia en el mercado de más de 15 a&#xf1;os.
-                </p>
-            </section>
-            <section>
-                <h3 id="benefits">Beneficio</h3>
-                <p>
-                    Los beneficios que ofrecemos son: un precio competitivo, calidad en materiales y acabados,
-                    la atenci&#xf3;n que reciben nuestros clientes y la experiencia que nos avala en el mercado.
+                  {{ 'about_us.benefits.content'|trans }} 
                 </p>
             </section>
         </section>
         <nav class="contents-nav">
-            <h3>Acerca de Nosotros</h3>
+            <h3>{{ 'about_us.about_us'|trans }}</h3>
             <ul>
-                <li><a href="#history">Historia</a></li>
-                <li><a href="#mission">Mision</a></li>
-                <li><a href="#vision">Vision</a></li>
-                <li><a href="#profile">Perfil</a></li>
-                <li><a href="#focus">Enfoque</a></li>
-                <li><a href="#competitive-advantage">Ventaja Competitiva</a></li>
-                <li><a href="#benefits">Beneficio</a></li>
+                <li><a href="#history">{{ 'about_us.history'|trans }}</a></li>
+                <li><a href="#mission">{{ 'about_us.mission'|trans }}</a></li>
+                <li><a href="#vision">{{ 'about_us.vision'|trans }}</a></li>
+                <li><a href="#profile">{{ 'about_us.profile'|trans }}</a></li>
+                <li><a href="#focus">{{ 'about_us.focus'|trans }}</a></li>
+                <li><a href="#competitive-advantage">{{ 'about_us.competitive_advantage'|trans }}</a></li>
+                <li><a href="#benefits">{{ 'about_us.benefits'|trans }}</a></li>
             </ul>
         </nav>
     </section>
